@@ -93,8 +93,8 @@ app.get('/posts/:id/edit', (req, res) => {
 
 app.delete('/posts/:id', (req, res) => {
     let { id } = req.params;
-    posts = posts.filter(post => post.id !== id); // remove the post
-    res.redirect('/posts'); // go back to posts page
+    posts = posts.filter(post => post.id !== id);
+    res.redirect('/posts'); 
 });
 
 
