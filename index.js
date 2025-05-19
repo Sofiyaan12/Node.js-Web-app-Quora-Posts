@@ -23,18 +23,7 @@ let posts = [
     id : uuidv4(),
     username : "Mohammed Sofiyaan",
     content : "I am a software engineer",
-},
-{
-    id : uuidv4(),
-    username : "Syed Saad ahmed",
-    content : "Finally, Its my wedding!!!",
-},
-{
-    id : uuidv4(),
-    username : "Jason",
-    content : "I am out of India!!",
-}
-]; 
+},]; 
 
 app.get('/posts', (req, res) => {    
     res.render("index.ejs", { posts }); 
