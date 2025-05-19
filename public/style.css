@@ -1,0 +1,157 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 20px;
+}
+
+h1 {
+    text-align: center;
+    color: #333;
+    margin-bottom: 40px;
+}
+
+h2, h3, h4 {
+    color: #444;
+}
+
+.post {
+    background-color: #fff;
+    border-radius: 12px;
+    padding: 20px;
+    margin: 20px auto;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.08);
+    max-width: 700px;
+    transition: transform 0.2s;
+}
+
+.post:hover {
+    transform: scale(1.01);
+}
+
+.user {
+    font-style: italic;
+    color: #0066cc;
+    font-size: 1.2em;
+    margin-bottom: 10px;
+}
+
+.content {
+    margin-bottom: 20px;
+    font-size: 1.1em;
+    color: #333;
+}
+
+a, button {
+    padding: 10px 15px;
+    text-decoration: none;
+    border-radius: 6px;
+    font-size: 0.95em;
+    cursor: pointer;
+    margin-right: 10px;
+    display: inline-block;
+    text-align: center;
+    white-space: nowrap;
+}
+
+a {
+    background-color: #007bff;
+    color: white;
+}
+
+a:hover {
+    background-color: #0056b3;
+}
+
+button {
+    border: none;
+}
+
+button[type="submit"] {
+    background-color: #28a745;
+    color: white;
+}
+
+button[type="submit"]:hover {
+    background-color: #218838;
+}
+
+button.delete {
+    background-color: #dc3545;
+    color: white;
+}
+
+button.delete:hover {
+    background-color: #c82333;
+}
+
+form {
+    margin-top: 20px;
+}
+
+textarea, input {
+    width: 100%;
+    padding: 10px;
+    margin-top: 10px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    font-size: 1em;
+}
+
+textarea {
+    resize: vertical;
+}
+
+form, .form-container {
+    max-width: 700px;
+    margin: auto;
+}
+
+@media (max-width: 768px) {
+    body {
+        padding: 10px;
+    }
+
+    .post {
+        padding: 15px;
+        margin: 15px auto;
+    }
+
+    .user {
+        font-size: 1em;
+    }
+
+    .content {
+        font-size: 1em;
+    }
+
+    a, button {
+        font-size: 0.9em;
+        padding: 8px 12px;
+        margin: 5px 0;
+    }
+
+    textarea, input {
+        font-size: 0.95em;
+    }
+}
+
+@media (max-width: 480px) {
+    h1 {
+        font-size: 1.5em;
+    }
+
+    .user {
+        font-size: 0.95em;
+    }
+
+    .content {
+        font-size: 0.95em;
+    }
+
+    a, button {
+        font-size: 0.85em;
+        width: 100%;
+        margin-bottom: 8px;
+    }
+}

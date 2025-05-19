@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Edit Post</title>
+</head>
+<body>
+    
+
+    <h2>Edit your Post</h2>
+    <p>Post Id : <%= post.id %></p>
+    <p>Post Username : <%= post.username %></p>
+
+    <form action="/posts/<%= post.id %>?_method=PATCH" method="POST">
+        <textarea name="content" cols="30" rows="10"><%= post.content %></textarea>
+        <button type="submit">Update Post</button>
+    </form>
+    <form action="/posts/<%= post.id %>?_method=DELETE" method="POST">
+        <button type="submit" class="delete">Delete Post</button>
+
+    </form>
+
+      
+</body>
+</html>
