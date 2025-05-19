@@ -59,7 +59,24 @@ package.json # Project metadata and dependencies
 
 ---
 
+## Screenshots
+
+### Home Page
+![image](https://github.com/user-attachments/assets/40b1af3e-c5a3-4fe0-8b34-252e9d7b1feb)
+
+### Create Post
+![image](https://github.com/user-attachments/assets/beb3e2b6-bf5a-4d95-b612-6468d20bfe72)
+
+### Edit Post
+![image](https://github.com/user-attachments/assets/61dc4442-06c1-4fba-831e-b8dc923834a1)
+
+
+### Post Details
+![image](https://github.com/user-attachments/assets/673cea8c-25ad-4695-8986-584fb868a1ec)
+
+---
+
 ## Contact
 
-For questions or feedback, please contact the project maintainer.
+For questions or feedback, please contact on mohammedsofiyaan12@gmail.com or text me on www.linkedin.com/in/sofiyaan.
 
