@@ -34,12 +34,7 @@ let posts = [
     username : "Jason",
     content : "I am out of India!!",
 }
-];
-
-app.get('/', (req, res) => {    
-    res.send("Welcome to the home page!"); 
-}
-); 
+]; 
 
 app.get('/posts', (req, res) => {    
     res.render("index.ejs", { posts }); 
