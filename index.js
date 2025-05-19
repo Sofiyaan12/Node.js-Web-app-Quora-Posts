@@ -23,7 +23,7 @@ let posts = [
     id : uuidv4(),
     username : "Mohammed Sofiyaan",
     content : "I am a software engineer",
-},]; 
+}]; 
 
 app.get('/posts', (req, res) => {    
     res.render("index.ejs", { posts }); 
